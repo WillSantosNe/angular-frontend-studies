@@ -1,27 +1,51 @@
-# Memoteca
+# Memoteca | Front-end Study
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.0.0.
+![Angular](https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
+![Status](https://img.shields.io/badge/Status-Em_Desenvolvimento-yellow?style=for-the-badge)
 
-## Development server
+## Objetivo do Projeto
+Este repositório faz parte da minha trilha de aprimoramento técnico. Embora meu foco principal seja o **Backend (Java/Spring)**, desenvolvi esta aplicação para:
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+1.  Compreender profundamente o ciclo de vida de uma aplicação **Single Page Application (SPA)**.
+2.  Entender como o Front-end consome APIs RESTful, facilitando a construção de Backends mais eficientes.
+3.  Melhorar a comunicação técnica e integração em equipes ágeis/Full Stack.
 
-## Code scaffolding
+## Sobre a Aplicação
+A **Memoteca** é uma aplicação de "mural de pensamentos", onde o usuário pode cadastrar citações, pensamentos ou lembretes.
+O projeto foca na componentização, roteamento e consumo de serviços HTTP.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+### Principais Funcionalidades:
+* Listagem de pensamentos (mural).
+* Criação de novos cards.
+* Filtragem e busca.
+* Integração com API (Simulada).
 
-## Build
+## Tecnologias Utilizadas
+* **Framework:** Angular 14+
+* **Linguagem:** TypeScript
+* **Estilização:** CSS3
+* **Requisições:** Angular HTTP Client
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+## Como Rodar o Projeto
 
-## Running unit tests
+### Pré-requisitos
+Antes de começar, você vai precisar ter instalado em sua máquina o [Node.js](https://nodejs.org/en/) e o [Angular CLI](https://angular.io/cli).
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+### Passo a passo
 
-## Running end-to-end tests
+```bash
+# Clone este repositório
+$ git clone git@github.com:WillSantosNe/angular-frontend-studies.git
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+# Acesse a pasta do projeto no terminal/cmd
+$ cd memoteca
 
-## Further help
+# Instale as dependências
+$ npm install
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+# Execute a aplicação em modo de desenvolvimento
+$ ng serve
+```
+---
+Desenvolvido por **William Santos**.
