@@ -11,7 +11,7 @@ export class CriarPensamentoComponent implements OnInit {
     id : '1',
     conteudo : 'Aprendendo Angular',
     autoria : 'William',
-    modelo : ''
+    modelo : 'modelo1'
   }
 
   constructor() { }
