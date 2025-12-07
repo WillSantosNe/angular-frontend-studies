@@ -97,7 +97,7 @@
         <!-- Ao usar () estamos escutando algum evento -->
          <!-- Ao usar o click, devemos passar a funcao que ela vai ficar escutando -->
         <button (click)="criarPensamento()" class="botao">Salvar</button>
-        <button (click)="cancelarPensamento()" class="botao">Cancelar</button>
+        <button routerLink="/listarPensamento" (click)="cancelarPensamento()" class="botao">Cancelar</button>
       </div>
     </form>
 </section>
