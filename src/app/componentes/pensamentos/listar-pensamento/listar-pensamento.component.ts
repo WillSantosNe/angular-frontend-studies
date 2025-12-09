@@ -17,7 +17,12 @@ export class ListarPensamentoComponent implements OnInit {
       conteudo : "Minha propriedade é decorada com @Input()",
       autoria : "Componente Filho",
       modelo : "modelo1"
-    }
+    },
+    {
+      conteudo : "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up.ampden-Sydney College in Virginia, looked upampden-Sydney College in Virginia, looked upampden-Sydney College in Virginia, looked up",
+      autoria : "",
+      modelo : "modelo2"
+    },
   ];
   constructor() { }
 
