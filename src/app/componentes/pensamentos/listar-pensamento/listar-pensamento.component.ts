@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Pensamento } from '../pensamento';
 
 @Component({
   selector: 'app-listar-pensamento',
@@ -7,23 +8,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ListarPensamentoComponent implements OnInit {
 
-  listaPensamentos = [
-    {
-      conteudo : "Passo informacoes para o componente filho",
-      autoria : "Componente Pai",
-      modelo : "modelo3"
-    },
-    {
-      conteudo : "Minha propriedade é decorada com @Input()",
-      autoria : "Componente Filho",
-      modelo : "modelo1"
-    },
-    {
-      conteudo : "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up.ampden-Sydney College in Virginia, looked upampden-Sydney College in Virginia, looked upampden-Sydney College in Virginia, looked up",
-      autoria : "",
-      modelo : "modelo2"
-    },
-  ];
+  listaPensamentos : Pensamento[] = [];
   constructor() { }
 
   ngOnInit(): void {
